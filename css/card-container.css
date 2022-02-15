@@ -1,0 +1,90 @@
+.main-cards-container{
+    display: grid;
+    background-color: var(--warm-black);
+}
+
+.main-cards-container .icon{
+   background-image: url(../assets/icons/svg/burbuja.svg);
+   width: 40px;
+   height: 24px;
+   display: block;
+   position: absolute;
+}
+
+.main-cards-container .card{
+    background-color: var(--warm-black-plus);
+    width: 288px;
+    height: 152px;
+    border-radius: 4px;
+    margin: 16px 16px;
+}
+
+.main-cards-container .title-cards{
+    font-size:1.5rem;
+    font-weight: 700;
+    color: var(--just-white);
+    line-height: 1.625rem;
+    margin: 64px auto 24px auto;
+}
+
+.main-cards-container .description-cards{
+    font-size: 0.876rem;
+    color: #808080;
+    line-height: 1.125rem;
+    margin: 24px auto 32px auto;
+    font-weight: 500;
+
+}
+
+.main-cards-container .clock{
+    background-image: url(../assets/icons/svg/clock.svg);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin: 16px 250px 116px 18px;
+    
+}
+
+.main-cards-container .eye{
+    background-image: url(../assets/icons/svg/eye.svg);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin: 16px 250px 116px 18px;
+}
+
+.main-cards-container .dollar{
+    background-image: url(../assets/icons/svg/dollar.svg);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin: 16px 250px 116px 18px;
+}
+
+.main-cards-container .check{
+    background-image: url(../assets/icons/svg/check.svg);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin: 16px 250px 116px 18px;
+}
+
+.main-cards-container h2{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--just-white);
+    line-height: 1.125rem;
+    margin: 46px 169px 10px 16px;
+}
+
+.main-cards-container .text-description{
+    color: #808080;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: 500;
+    margin: 10px 20px 22px 16px;
+}
