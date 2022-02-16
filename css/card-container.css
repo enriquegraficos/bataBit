@@ -4,6 +4,7 @@
 }
 
 .product--detail-cards{
+  
     display: grid;
     gap: 15px;
     grid-auto-rows:auto;
@@ -107,7 +108,7 @@
     font-size: 0.875rem;
     line-height: 1.125rem;
     font-weight: 500;
-    margin: 10px 20px;
+    margin: 10px 20px 22px 16px;
 }
 
 /* @media only screen and (max-width:450px) {
