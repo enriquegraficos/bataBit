@@ -1,30 +1,48 @@
 .main-cards-container{
     display: grid;
+    /* width: 100%;
+    min-width: 320px;
+    height: auto;
+    margin: 20px 10px; */
+    position: relative;
     background-color: var(--warm-black);
 }
 
-.main-cards-container .icon{
-   background-image: url(../assets/icons/svg/burbuja.svg);
-   width: 40px;
-   height: 24px;
-   display: block;
-   position: absolute;
+.product--detail-cards{
+    display: flex;
+    flex-direction: row;
 }
 
 .main-cards-container .card{
     background-color: var(--warm-black-plus);
-    width: 288px;
-    height: 152px;
+   
+    width: 100%;
+    min-width: 320px;
+    height: auto;
     border-radius: 4px;
     margin: 16px 16px;
+    padding: 16px 16px;
+    
 }
-
+/* este es el icon de batata*/
+.main-cards-container .icon{
+   background-image: url("../assets/icons/svg/burbuja.svg");
+   width: 40px;
+   height: 24px;
+   position: absolute;
+   top: -10px;
+   justify-self: center;
+  
+}
 .main-cards-container .title-cards{
     font-size:1.5rem;
     font-weight: 700;
     color: var(--just-white);
     line-height: 1.625rem;
-    margin: 64px auto 24px auto;
+    margin: 64px 0 24px 0;
+    justify-self: center;
+    align-self: center;
+   
 }
 
 .main-cards-container .description-cards{
@@ -88,3 +106,11 @@
     font-weight: 500;
     margin: 10px 20px 22px 16px;
 }
+
+@media only screen and (max-width:450px) {
+    .product--detail-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }
