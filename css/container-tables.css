@@ -1,0 +1,11 @@
+@import url('../css/coin-container-one.css');
+@import url('../css/coin-container-two.css');
+
+.container-tables{
+    display: grid;
+    gap: 15px;
+    grid-auto-rows:auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-flow: dense;
+}
+
