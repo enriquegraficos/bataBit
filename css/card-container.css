@@ -1,6 +1,7 @@
 .main-cards-container{
     position: relative;
     background-color: var(--warm-black);
+    padding-bottom: 46px;
 }
 
 .product--detail-cards{
@@ -40,7 +41,7 @@
   
 }
 .main-cards-container .container-titles .title-cards{
-    font-size:1.5rem;
+    font-size:1.33rem;
     font-weight: 700;
     color: var(--just-white);
     line-height: 1.625rem;
@@ -50,7 +51,7 @@
 }
 
 .main-cards-container .description-cards{
-    font-size: 0.876rem;
+    font-size: 0.875rem;
     color: #808080;
     line-height: 1.125rem;
     margin: 24px auto 32px auto;
@@ -96,10 +97,10 @@
 }
 
 .main-cards-container h2{
-    font-size: 1.125rem;
-    font-weight: 700;
+    font-size:1.125rem;
+    font-weight: bold;
     color: var(--just-white);
-    line-height: 1.125rem;
+    line-height: 18px;
     margin: 46px 169px 10px 16px;
 }
 
@@ -111,10 +112,3 @@
     margin: 10px 20px 22px 16px;
 }
 
-/* @media only screen and (max-width:450px) {
-    .product--detail-cards{
-        display: flex;
-        flex-direction: column;
-    }
-    
-  } */

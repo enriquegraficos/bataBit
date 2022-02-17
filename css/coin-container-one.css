@@ -1,6 +1,6 @@
 .container-tables .coins-container-one{
     display: grid;
-    grid-template-columns: repeat(2, 100px);
+    grid-template-columns: repeat(2, 120px);
     grid-template-rows: repeat(6, 39px);
     justify-content: center;
     background-color:var(--off-white);
@@ -11,7 +11,7 @@
     padding:10px 12px ;
     border: 1px solid var(--off-white);
     font-family: 'Inter', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 500;
     color:#B5B0AC;
     line-height: 19px;
@@ -43,7 +43,7 @@
 }
 
 .container-tables .text-container-update-one{
-    width: 190px;
+    width: 240px;
     height: 30px;
     margin: 15px auto;
     border-radius: 8px;
@@ -52,16 +52,18 @@
     grid-row: 6 / span 2;
 }
 
-.text-container p{
-    font-size: 1.25rem;
-    font-family: 'Inter', sans-serif; 
+.container-tables .text-container-update-one p{
+    text-align: center;
+    font-size: 0.75rem;
 }
+
 
 
 .coins-text{
     color:#FF9536;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 700;
     text-align: center;
     grid-column: span 2;
 }
+
