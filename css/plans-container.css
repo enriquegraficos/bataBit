@@ -121,6 +121,12 @@ main .titles-services p{
     margin-bottom: 24px;
 }
 
+.plans-container .plan-content .plan-content-fill .choose-button:hover{
+    background-color: var(--Bitcoin-orange);
+    
+
+}
+
 .plans-container .plan-content .plan-content-fill .choose-button .simbol-right{
    
     background-image:url(../assets/icons/svg/arrow-right.svg) ;
@@ -131,6 +137,7 @@ main .titles-services p{
    
 }
 
+
 .plans-container .plan-content .plan-content-fill .choose-button a{
     font-size: 0.875rem;
     line-height: 18.28px;
@@ -139,4 +146,8 @@ main .titles-services p{
     margin:15px 14px;
     text-decoration: none;
     color: var(--warm-black);
+}
+
+.plans-container .plan-content .plan-content-fill .choose-button a:hover{
+    color: white;
 }

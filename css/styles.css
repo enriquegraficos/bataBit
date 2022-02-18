@@ -4,6 +4,7 @@
 @import url('../css/card-container.css');
 @import url('../css/container-bitcoin-img.css');
 @import url('../css/plans-container.css');
+@import url('../css/footer.css');
 
 :root{
     --linearBG:linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
