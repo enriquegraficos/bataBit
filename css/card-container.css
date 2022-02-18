@@ -28,7 +28,7 @@
 .main-cards-container .container-titles{
     display: grid;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 .main-cards-container .container-titles .icon{
    background-image: url("../assets/icons/svg/burbuja.svg");
@@ -97,6 +97,11 @@
 }
 
 .main-cards-container h2{
+    /* font-size:1.125rem;
+    font-weight: bold;
+    color: var(--just-white);
+    line-height: 18px;
+    margin: 46px 169px 10px 16px; */
     font-size:1.125rem;
     font-weight: bold;
     color: var(--just-white);

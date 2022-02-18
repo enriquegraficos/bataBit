@@ -1,0 +1,142 @@
+.plans-container{
+    display: grid;
+    gap: 20px;
+    grid-auto-rows:auto;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-content: center;
+    align-items: center;
+    
+}
+.plans-container .plan-content{
+    min-width: 320px;
+    margin: 64px 15px 64px 15px;
+    
+}
+
+.plans-container .plan-content .plan-content-fill{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    min-width: 190px;
+    max-width: 250px;
+    height: auto;
+    background-color: var(--just-white);
+    box-shadow:0px 4px 8px rgba(89, 73, 30, 0.16); 
+    border-radius: 8px;
+    margin:0px auto 0px auto ;
+}
+
+main .titles-services h2{
+    font-size:1.5rem;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    padding-bottom: 24px;
+    padding-top: 64px;
+}
+
+main .titles-services p{
+    font-size:0.875rem;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 34px;
+    color:#757575;
+    ;
+}
+
+.plans-container .plan-content .plan-content-fill .recomend-button{
+    background-color: var(--Bitcoin-orange);
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width:101px;
+    height: 31px;
+    border-radius: 8px;
+    padding: 8px;
+    color: var(--just-white);
+    text-decoration: none;
+   
+
+}
+
+.plans-container .plan-content .plan-content-fill .recomend-button{
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 14.52px;
+    text-align: center;
+    padding: 8px;
+}
+
+.plans-container .plan-content .plan-content-fill p{
+    font-size:0.875rem;
+    color: #000;
+    line-height: 18px;
+    margin: 31px 58px 8px 59px;
+    text-align: center;
+    font-weight: bold;
+  
+   
+}
+
+
+.plans-container .plan-content .plan-content-fill .text-price{
+    font-size: 3.25rem;
+}
+
+.plans-container .plan-content .plan-content-fill .text-price .simbol{
+    font-size:0.75rem;
+    font-weight: 500;
+    line-height: 15px;
+    color: #363636;
+    position: relative;
+    top:-15px;
+}
+
+.plans-container .plan-content .plan-content-fill .description{
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 14.52px;
+    color:#757575;
+    margin: 16px;
+}
+
+.plans-container .plan-content .plan-content-fill .choose-button{
+    width: 180px;
+    height: 48px;
+    border-radius: 4px;
+    border: 2px solid #F7931A;
+    display: flex;
+    justify-content: center;
+    background-color: var(--off-white);
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.plans-container .plan-content .plan-content-fill .choose-button .simbol-right{
+   
+    background-image:url(../assets/icons/svg/arrow-right.svg) ;
+    width: 24px;
+    height: 24px;
+    margin: 12px 16px 12px 8px;
+
+   
+}
+
+.plans-container .plan-content .plan-content-fill .choose-button a{
+    font-size: 0.875rem;
+    line-height: 18.28px;
+    font-weight: 700;
+    text-align: center;
+    margin:15px 14px;
+    text-decoration: none;
+    color: var(--warm-black);
+}
